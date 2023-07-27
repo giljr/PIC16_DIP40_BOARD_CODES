@@ -1,5 +1,5 @@
 
-# Project - PSM - Projetos de Sistemas Micropocessados
+# Project  - DIP40 BOARD - All the Codes for Free! ☕
 
 This project uses the [PIC-DIP40 Development Board](https://www.amazon.ca/Microchip-PIC16F877A-Microcontroller-Development-Interface/dp/B07WTB68FK)  and presents 7 projects using the PIC16F877A in C Language. All codes are functional!
 ## Installation
