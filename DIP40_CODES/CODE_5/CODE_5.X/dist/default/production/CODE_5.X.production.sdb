@@ -1,0 +1,91 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"20 C:\Users\j3\MPLABXProjects\CODE1\CODE_5\CODE_5.X/lcd.h
+[v _init init `(v  1 e 1 0 ]
+"28
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"43
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+"53
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+"62
+[v _LCD_line1 LCD_line1 `(v  1 e 1 0 ]
+"82
+[v _LCD_enable LCD_enable `(v  1 e 1 0 ]
+"91
+[v _delay delay `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"23 C:\Users\j3\MPLABXProjects\CODE1\CODE_5\CODE_5.X\lcd_hello_world.c
+[v _main main `(v  1 e 1 0 ]
+"340 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2663
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2777
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2780
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2783
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"23 C:\Users\j3\MPLABXProjects\CODE1\CODE_5\CODE_5.X\lcd_hello_world.c
+[v _main main `(v  1 e 1 0 ]
+{
+"45
+} 0
+"43 C:\Users\j3\MPLABXProjects\CODE1\CODE_5\CODE_5.X/lcd.h
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+{
+[v LCD_write@x x `uc  1 a 1 wreg ]
+[v LCD_write@x x `uc  1 a 1 wreg ]
+"45
+[v LCD_write@x x `uc  1 a 1 2 ]
+"51
+} 0
+"62
+[v _LCD_line1 LCD_line1 `(v  1 e 1 0 ]
+{
+"69
+} 0
+"28
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"41
+} 0
+"20
+[v _init init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"82
+[v _LCD_enable LCD_enable `(v  1 e 1 0 ]
+{
+"89
+} 0
+"53
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"60
+} 0
+"91
+[v _delay delay `(v  1 e 1 0 ]
+{
+"93
+[v delay@i i `i  1 a 2 0 ]
+"95
+} 0

@@ -1,0 +1,212 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"20 C:\Users\j3\MPLABXProjects\CODE1\BONUS_CODE\BONUS_CODE.X/lcd.h
+[v _init init `(v  1 e 1 0 ]
+"28
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"43
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+"53
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+"62
+[v _LCD_line1 LCD_line1 `(v  1 e 1 0 ]
+"70
+[v _LCD_line2 LCD_line2 `(v  1 e 1 0 ]
+"82
+[v _LCD_enable LCD_enable `(v  1 e 1 0 ]
+"91
+[v _delay delay `(v  1 e 1 0 ]
+"505 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 C:\Users\j3\MPLABXProjects\CODE1\BONUS_CODE\BONUS_CODE.X\display_adc_reading_lcd.c
+[v _writeWord writeWord `(v  1 e 1 0 ]
+"21
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+"26
+[v _ADC_read ADC_read `(ui  1 e 2 0 ]
+"37
+[v _main main `(v  1 e 1 0 ]
+"340 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2582
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2663
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2777
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2780
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2783
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"358 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"37 C:\Users\j3\MPLABXProjects\CODE1\BONUS_CODE\BONUS_CODE.X\display_adc_reading_lcd.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+[v main@buffer buffer `[8]uc  1 a 8 15 ]
+"38
+[v main@reading reading `ui  1 a 2 23 ]
+"60
+} 0
+"14
+[v _writeWord writeWord `(v  1 e 1 0 ]
+{
+[v writeWord@word word `*.26uc  1 p 2 3 ]
+"19
+} 0
+"43 C:\Users\j3\MPLABXProjects\CODE1\BONUS_CODE\BONUS_CODE.X/lcd.h
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+{
+[v LCD_write@x x `uc  1 a 1 wreg ]
+[v LCD_write@x x `uc  1 a 1 wreg ]
+"45
+[v LCD_write@x x `uc  1 a 1 2 ]
+"51
+} 0
+"505 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"514
+[v sprintf@width width `i  1 a 2 12 ]
+"545
+[v sprintf@val val `ui  1 a 2 8 ]
+"512
+[v sprintf@c c `uc  1 a 1 14 ]
+"521
+[v sprintf@prec prec `c  1 a 1 10 ]
+"525
+[v sprintf@flag flag `uc  1 a 1 7 ]
+"507
+[v sprintf@ap ap `[1]*.4v  1 a 1 6 ]
+"505
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 0 ]
+"550
+[v sprintf@sp sp `*.4uc  1 a 1 11 ]
+"1567
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 1 ]
+"15
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"70 C:\Users\j3\MPLABXProjects\CODE1\BONUS_CODE\BONUS_CODE.X/lcd.h
+[v _LCD_line2 LCD_line2 `(v  1 e 1 0 ]
+{
+"77
+} 0
+"62
+[v _LCD_line1 LCD_line1 `(v  1 e 1 0 ]
+{
+"69
+} 0
+"28
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"41
+} 0
+"20
+[v _init init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"82
+[v _LCD_enable LCD_enable `(v  1 e 1 0 ]
+{
+"89
+} 0
+"53
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"60
+} 0
+"91
+[v _delay delay `(v  1 e 1 0 ]
+{
+"93
+[v delay@i i `i  1 a 2 0 ]
+"95
+} 0
+"26 C:\Users\j3\MPLABXProjects\CODE1\BONUS_CODE\BONUS_CODE.X\display_adc_reading_lcd.c
+[v _ADC_read ADC_read `(ui  1 e 2 0 ]
+{
+"27
+[v ADC_read@reading reading `ui  1 a 2 3 ]
+"26
+[v ADC_read@channel channel `ui  1 p 2 0 ]
+"35
+} 0
+"21
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+{
+"24
+} 0
